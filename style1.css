@@ -1,0 +1,108 @@
+html body {
+    height: 100%;
+    margin:0;
+}
+
+
+body {
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    margin:0;
+    padding:0;
+    background-image: url('statyj.jpg'); /* Путь к твоей картинке */
+    background-color: #f4f4f4;
+    background-size: cover; /* Изображение заполняет весь экран */
+    background-position: center; /* Центрирование изображения */
+    background-attachment: fixed; /* Фон фиксирован при прокрутке */
+    color: #fff;
+    flex-direction: column;
+    display:flex;
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Тень для текста */
+    border-radius: 5px;
+    border-left: 5px solid #93a1a1;
+    background-color: rgba(19, 3, 3, 0.2);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.5); /* Прозрачный черный фон */
+    padding: 20px;
+    border-radius: 10px; /* Скругленные углы */
+    margin: 20px;
+}
+
+h1 {
+    background-color: beige;
+    color:aqua;
+    padding:20px;
+    text-align:center;
+    display:flex;
+}
+
+h2 {
+    color: #005bb5;
+    text-align: center;
+    margin-top: 0;
+    display:flex;
+}
+
+h3 {
+    color: #003f8a;
+    margin-bottom: 10px;
+    display:flex;
+}
+
+p {
+    margin: 10px 20px;
+    text-align: justify;
+    display:flex;
+}
+
+ul {
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Прозрачный белый фон */
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+}
+
+ul li {
+    margin: 5px 0;
+    display:flex;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+    display:flex;
+}
+
+a:hover {
+    text-decoration: underline;
+    display:flex;
+}
+
+
+header {
+    flex-direction: column;
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 0;
+    display:flex;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Прозрачный темный фон */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display:flex;
+    flex-direction: column;
+}
